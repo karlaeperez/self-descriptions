@@ -1,0 +1,5 @@
+THIS COMMAND WAS USED TO INCREASE THE VOLUME OF ALL VIDEO FILES IN A DIRECTORY
+
+for f in *.mp4; do ffmpeg -i "$f" -filter:a "volume=12dB" -c:v copy "louder_${f}"; done
+
+This command runs a loop that increases the audio volume of every .mp4 file in the folder by $12\text{ dB}$ while keeping the original video quality intact. It achieves this by precisely filtering the audio stream and using the -c:v copy flag to "stream copy" the video data without time-consuming re-encoding.

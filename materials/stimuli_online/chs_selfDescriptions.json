@@ -1,0 +1,785 @@
+{
+    "frames": {
+        "study-intro": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "emph": true,
+                    "text": "In a few moments, your child will meet Karla--a new game-maker here on Children Helping Science! Karla wants to get to know the children on Children Helping Science better and would love to learn 12 facts about them.",
+                    "title": "Tell me about yourself!"
+                },
+                {
+                    "text": "To help Karla get to know the kids on Children Helping Science better, your child will share 12 facts about themselves. Then, your child will name 12 animals."
+                }
+            ],
+            "showPreviousButton": false
+        },
+        "instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "1. Overview of how to participate in this study",
+                    "listblocks": [
+                        {
+                            "text": "First, you will use your webcam to read a consent form and agree to participate."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please try playing this sample audio to make sure you'll be able to hear the story.",
+                    "title": "2. Adjust your speakers",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "3. Make sure we can see you",
+                    "listblocks": [
+                        {
+                            "text": "Take a look at your webcam view above. Get comfy, and adjust your own position or the computer as needed so both you and your child are visible."
+                        },
+                        {
+                            "text": "This isn't a Zoom call - no one in the lab can see you - but the recorded video of your consent will be sent to the lab."
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Next"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": ""
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Hyowon Gweon",
+            "datause": "A research assistant will collect your child's responses and review your video consent.",
+            "payment": "After you finish the study, we will email you a $5 Amazon.com gift card within a week of participation. To be eligible for the gift card your child must be in the age range for this study and you need to submit a valid consent statement where we need to see that there is a child with you. There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
+            "purpose": "We are interested in what children know about self-disclosure. That is, how do children tell others about themselves?",
+            "PIContact": "Hyowon Gweon (contact: sll_lookit@stanford.edu)",
+            "procedures": "You and your child will help Karla get to know the kids on Children Helping Science. There are no anticipated risks associated with participating.",
+            "institution": "Stanford University"
+        },
+        "start-recording-with-image": {
+            "kind": "exp-lookit-start-recording",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "image": "peekaboo_remy.jpg",
+            "imageAnimation": "spin",
+            "displayFullscreen": true
+        },
+        "stop-recording-with-image": {
+            "kind": "exp-lookit-stop-recording",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "image": "peekaboo_remy.jpg",
+            "imageAnimation": "spin",
+            "displayFullscreen": true
+        },
+        "info-survey": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Thank you for playing! If you'd like to give us feedback, please do so below.",
+                    "properties": {
+                        "instructions": {
+                            "type": "string",
+                            "title": "Were the instructions clear?",
+                            "default": ""
+                        },
+                        "interest": {
+                            "type": "string",
+                            "title": "Was your child interested in the game?",
+                            "default": ""
+                        },
+                        "general_feedback": {
+                            "type": "string",
+                            "title": "Do you have any additional feedback?",
+                            "default": ""
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next",
+            "doRecording": false
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "doRecording": false,
+            "debriefing": {
+                "text": "Thank You for Participating! \n\nWe are interested in how children learn to talk about themselves! Sharing our thoughts, feelings, and experiences\u2014what we call 'self-disclosure'\u2014is more than just a common, everyday activity\u2014it's a complex skill! Unlike describing something in the physical world (like how a car engine works), talking about yourself requires you to look inward; you have to search through a 'database' of memories and feelings that only you can see. We want to characterize how this ability develops as children get older.\n\nPart 1: By asking your child to share 12 things about themselves with Karla, we are looking at what they choose to share, how many different topics they bring up, and how specific their details are.\n\nPart 2: By asking your child for 12 animals, we can get a general understanding of how children pull information from their memory. Specifically, we want to see if children pull animal names in a systematic manner (e.g., first 'farm animals' then 'ocean animals') that is different from how they pull information about themselves.\n\nWhy this matters: Even though people talk about themselves every day, scientists are still figuring out how this ability develops. By using new language-processing technology, we can turn children's disclosures into numerical data that helps us more precisely understand the developing mind.\n\nAs a thank you for your time, we will email you a $5 Amazon.com gift card within one week of participation. (Note: (1) one gift card per child, (2) your child must be in the age range for the study, and (3) your child must be visible during the study.)\n\nQuestions or Feedback? Please feel free to contact us at sll_lookit@stanford.edu."
+            }
+        },
+        "intro-1": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "intro-1",
+                "position": "fill",
+                "source": "main_trial_0"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "intro-2": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "intro-2",
+                "position": "fill",
+                "source": "main_trial_00"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "intro-3": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "intro-3",
+                "position": "fill",
+                "source": "main_trial_000"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-1": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-1",
+                "position": "fill",
+                "source": "main_trial_1"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-2": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-2",
+                "position": "fill",
+                "source": "main_trial_2"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-3": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-3",
+                "position": "fill",
+                "source": "main_trial_3"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-4": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-4",
+                "position": "fill",
+                "source": "main_trial_4"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-5": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-5",
+                "position": "fill",
+                "source": "main_trial_5"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-6": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-6",
+                "position": "fill",
+                "source": "main_trial_6"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-7": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-7",
+                "position": "fill",
+                "source": "main_trial_7"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-8": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-8",
+                "position": "fill",
+                "source": "main_trial_8"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-9": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-9",
+                "position": "fill",
+                "source": "main_trial_9"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-10": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-10",
+                "position": "fill",
+                "source": "main_trial_10"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-11": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-11",
+                "position": "fill",
+                "source": "main_trial_11"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-12": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "trial-12",
+                "position": "fill",
+                "source": "main_trial_12"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "main-done": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "main-done",
+                "position": "fill",
+                "source": "main_trial_END"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-1": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-1",
+                "position": "fill",
+                "source": "animal_trial_1"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-2": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-2",
+                "position": "fill",
+                "source": "animal_trial_2"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-3": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-3",
+                "position": "fill",
+                "source": "animal_trial_3"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-4": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-4",
+                "position": "fill",
+                "source": "animal_trial_4"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-5": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-5",
+                "position": "fill",
+                "source": "animal_trial_5"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-6": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-6",
+                "position": "fill",
+                "source": "animal_trial_6"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-7": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-7",
+                "position": "fill",
+                "source": "animal_trial_7"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-8": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-8",
+                "position": "fill",
+                "source": "animal_trial_8"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-9": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-9",
+                "position": "fill",
+                "source": "animal_trial_9"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-10": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-10",
+                "position": "fill",
+                "source": "animal_trial_10"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-11": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-11",
+                "position": "fill",
+                "source": "animal_trial_11"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-12": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-12",
+                "position": "fill",
+                "source": "animal_trial_12"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "animal-done": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "id": "animal-done",
+                "position": "fill",
+                "source": "animal_trial_END"
+            },
+            "baseDir": "https://raw.githubusercontent.com/karlaeperez/self-disclosure-stim/main/",
+            "pageColor": "white",
+            "autoProceed": false,
+            "controls": true,
+            "doRecording": false,
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        }
+    },
+    "sequence": [
+        "study-intro",
+        "instructions",
+        "video-config",
+        "video-consent",
+        "intro-1",
+        "intro-2",
+        "intro-3",
+        "start-recording-with-image",
+        "main-1",
+        "main-2",
+        "main-3",
+        "main-4",
+        "main-5",
+        "main-6",
+        "main-7",
+        "main-8",
+        "main-9",
+        "main-10",
+        "main-11",
+        "main-12",
+        "main-done",
+        "animal-1",
+        "animal-2",
+        "animal-3",
+        "animal-4",
+        "animal-5",
+        "animal-6",
+        "animal-7",
+        "animal-8",
+        "animal-9",
+        "animal-10",
+        "animal-11",
+        "animal-12",
+        "animal-done",
+        "stop-recording-with-image",
+        "info-survey",
+        "exit-survey"
+    ]
+}
